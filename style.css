@@ -33,11 +33,11 @@
 
 
 .logo_style{
-	width:300px;
+	width:250px;
 	margin:10px auto;
 }
 .dear_dochead{
-	font-size:30px;
+	font-size:26px;
 	color:#585858;
 	margin:20px 0 0 0;
 	font-family:'logo_font1';
@@ -51,7 +51,7 @@
 
 }
 .exclusive_head{
-	font-size:40px;
+	font-size:28px;
 	color:#fff;
 	
 	margin:20px 0 0 0;
@@ -62,38 +62,39 @@
 /*===========banner part=========*/
 .baner_part{
 	background:url('img/banner.jpg')no-repeat;
-	background-attachment:fixed;
-	background-position:center;
-	min-height:600px;
-	padding:50px 0 0 0;
-	margin:50px 0 50px 0;
+	
+	
+	padding:20px 0 0 0;
+	margin:30px 0 20px 0;
 }
 .circle_border{
-	margin:50px auto;
-	width:120px;
-	height:120px;
+	
+	margin:30px auto;
+	width:100px;
+	height:100px;
 	border-radius:50%;
 	border:3px solid #fff;
 
 
 }
 .join_icon{
+	width:50px;
 	margin:20px auto;
 }
 .Priority_head{
-	font-size:28px;
+	font-size:20px;
 	color:#fff;
 	font-weight:bold;
 	margin:0 0 0 0;
 }
 
 .Priority_para{
-	font-size:18px;
+	font-size:14px;
 	color:#fff;
 	margin:20px 0 20px 0;
 }
 .curizon_text{
-	font-size:30px;
+	font-size:26px;
 	color:#294C6C;
 	font-weight:bold;
 	margin:0 0 30px 0;
@@ -159,17 +160,14 @@
 
 /*===========banner part=========*/
 .baner_part{
-	background:url('img/banner.jpg')no-repeat;
-	background-attachment:fixed;
-	background-position:center;
-	min-height:600px;
+	background:url('img/mob.jpg');
 	padding:50px 0 0 0;
-	margin:50px 0 50px 0;
+	margin:30px 0 20px 0;
 }
 .circle_border{
-	margin:50px auto;
-	width:120px;
-	height:120px;
+	margin:30px auto;
+	width:100px;
+	height:100px;
 	border-radius:50%;
 	border:3px solid #fff;
 
@@ -179,7 +177,7 @@
 	margin:20px auto;
 }
 .Priority_head{
-	font-size:28px;
+	font-size:24px;
 	color:#fff;
 	font-weight:bold;
 	margin:0 0 0 0;
@@ -191,7 +189,7 @@
 	margin:20px 0 20px 0;
 }
 .curizon_text{
-	font-size:30px;
+	font-size:28px;
 	color:#294C6C;
 	font-weight:bold;
 	margin:0 0 30px 0;
@@ -240,10 +238,13 @@
 }
 
 /*===========banner part=========*/
-.banner_style{
-	margin:15px 0 15px 0;
+.baner_part{
+	background:url('img/mob.jpg')no-repeat;
+	
+	min-height:800px;
+	padding:50px 0 0 0;
+	margin:50px 0 50px 0;
 }
-
 
 }
 /*============================== media query ipad====================*/
@@ -255,10 +256,11 @@
 	margin:10px auto;
 }
 .dear_dochead{
-	font-size:30px;
+	font-size:26px;
 	color:#3A3A3A;
 	margin:20px 0 0 0;
 	font-weight:bold;
+	line-height:26px;
 	
 }
 .dear_docpara{
@@ -268,14 +270,20 @@
 
 }
 .baner_part{
-	background:url('img/banner.jpg')no-repeat;
-	background-attachment:fixed;
-	background-position:center;
-	min-height:600px;
-	padding:50px 0 0 0;
+	background:url('img/tab.jpeg')no-repeat;
+	
+
+	padding:30px 0 0 0;
 	margin:50px 0 50px 0;
 }
-
+.exclusive_head{
+	font-size:26px;
+	color:#fff;
+	
+	margin:10px 0 0 0;
+	font-family:'logo_font1';
+	line-height:20px;
+}
 
 
 	
