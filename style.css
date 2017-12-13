@@ -267,11 +267,16 @@
 	margin:10px 0 0 0;
 
 }
-
-/*===========banner part=========*/
-.banner_style{
-	margin:15px 0 15px 0;
+.baner_part{
+	background:url('img/banner.jpg')no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	min-height:600px;
+	padding:50px 0 0 0;
+	margin:50px 0 50px 0;
 }
+
+
 
 	
 }
