@@ -27,6 +27,9 @@
 	src:url('assets/fonts/RobotoCondensed-Light.ttf');
 	
 }
+.submit-btn1{
+	display:none;
+}
 .hr_line{
 	display:none;
 }
@@ -161,32 +164,35 @@
 /*===========banner part=========*/
 .baner_part{
 	background:url('img/mob.jpg');
-	padding:50px 0 0 0;
+	padding:20px 0 0 0;
 	margin:30px 0 20px 0;
 }
 .circle_border{
-	margin:30px auto;
-	width:100px;
-	height:100px;
+	margin:20px auto;
+	width:70px;
+	height:70px;
 	border-radius:50%;
 	border:3px solid #fff;
-
-
+	float:left!important;
+	
 }
 .join_icon{
-	margin:20px auto;
+
+	margin:10px auto;
 }
 .Priority_head{
-	font-size:24px;
+	font-size:20px;
 	color:#fff;
 	font-weight:bold;
-	margin:0 0 0 0;
+	margin:10px 0 0 90px!important;
+	text-align:left!important;
 }
 
 .Priority_para{
-	font-size:18px;
+	font-size:14px;
 	color:#fff;
-	margin:20px 0 20px 0;
+	margin:20px 0 20px 90px!important;
+	text-align:left!important;
 }
 .curizon_text{
 	font-size:28px;
@@ -205,6 +211,20 @@
 	font-size:16px;
 }
 .submit-btn:hover{
+	background:#4289CA;
+}
+.submit-btn1{
+	display:inline-block;
+	width:200px;
+	height:40px;
+	background:#294C6C;
+	border:none;
+	border-radius:0;
+	margin:15px 0 0 0;
+	font-size:16px;
+
+}
+.submit-btn1:hover{
 	background:#4289CA;
 }
 
