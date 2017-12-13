@@ -1,0 +1,280 @@
+@font-face{
+	font-family:'bold_font';
+	src:url('assets/fonts/boldfont.ttf');
+	
+}
+@font-face{
+	font-family:'logo_font';
+	src:url('assets/fonts/SpecifyPERSONAL-ConBold.ttf');
+}
+
+@font-face{
+	font-family:'logo_font1';
+	src:url("assets/fonts/Aileron-Light.otf");
+}
+
+@font-face{
+	font-family:'para_font';
+	src:url('assets/fonts/Aileron-Light.otf');
+}
+
+@font-face{
+	font-family:'fav_font';
+	src:url('assets/fonts/one.ttf');
+}
+@font-face{
+	font-family:'good_font';
+	src:url('assets/fonts/RobotoCondensed-Light.ttf');
+	
+}
+.hr_line{
+	display:none;
+}
+
+
+.logo_style{
+	width:300px;
+	margin:10px auto;
+}
+.dear_dochead{
+	font-size:30px;
+	color:#585858;
+	margin:20px 0 0 0;
+	font-family:'logo_font1';
+	line-height:20px;
+	
+}
+.dear_docpara{
+	font-size:14px;
+	color:#3A3A3A;
+	margin:10px 0 0 0;
+
+}
+.exclusive_head{
+	font-size:40px;
+	color:#fff;
+	
+	margin:20px 0 0 0;
+	font-family:'logo_font1';
+	line-height:20px;
+}
+
+/*===========banner part=========*/
+.baner_part{
+	background:url('img/banner.jpg')no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	min-height:600px;
+	padding:50px 0 0 0;
+	margin:50px 0 50px 0;
+}
+.circle_border{
+	margin:50px auto;
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	border:3px solid #fff;
+
+
+}
+.join_icon{
+	margin:20px auto;
+}
+.Priority_head{
+	font-size:28px;
+	color:#fff;
+	font-weight:bold;
+	margin:0 0 0 0;
+}
+
+.Priority_para{
+	font-size:18px;
+	color:#fff;
+	margin:20px 0 20px 0;
+}
+.curizon_text{
+	font-size:30px;
+	color:#294C6C;
+	font-weight:bold;
+	margin:0 0 30px 0;
+	font-family:'logo_font1';
+}
+.submit-btn{
+	width:200px;
+	height:40px;
+	background:#294C6C;
+	border:none;
+	border-radius:0;
+	margin:20px 0 50px 0;
+	font-size:16px;
+}
+.submit-btn:hover{
+	background:#4289CA;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================media query mobile=================*/
+@media screen and (min-width:100px) and (max-width:480px){
+	.hr_line{
+	display:block;
+	background:#FC7205;
+}
+
+	
+	.logo_style{
+	width:200px;
+	margin:10px auto;
+}
+
+.dear_dochead{
+	font-size:20px;
+	color:#585858;
+	margin:20px 0 0 0;
+	font-family:'logo_font1';
+	line-height:20px;
+	
+}
+.dear_docpara{
+	font-size:14px;
+	color:#3A3A3A;
+	margin:10px 0 0 0;
+
+}
+.exclusive_head{
+	font-size:26px;
+	color:#fff;
+	
+	margin:20px 0 0 0;
+	font-family:'logo_font1';
+	line-height:20px;
+}
+
+/*===========banner part=========*/
+.baner_part{
+	background:url('img/banner.jpg')no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	min-height:600px;
+	padding:50px 0 0 0;
+	margin:50px 0 50px 0;
+}
+.circle_border{
+	margin:50px auto;
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	border:3px solid #fff;
+
+
+}
+.join_icon{
+	margin:20px auto;
+}
+.Priority_head{
+	font-size:28px;
+	color:#fff;
+	font-weight:bold;
+	margin:0 0 0 0;
+}
+
+.Priority_para{
+	font-size:18px;
+	color:#fff;
+	margin:20px 0 20px 0;
+}
+.curizon_text{
+	font-size:30px;
+	color:#294C6C;
+	font-weight:bold;
+	margin:0 0 30px 0;
+	font-family:'logo_font1';
+}
+.submit-btn{
+	width:200px;
+	height:40px;
+	background:#294C6C;
+	border:none;
+	border-radius:0;
+	margin:20px 0 50px 0;
+	font-size:16px;
+}
+.submit-btn:hover{
+	background:#4289CA;
+}
+
+/*===========banner part=========*/
+.banner_style{
+	margin:0 0 15px 0;
+}
+
+
+}
+/*================media query 640px =====================*/
+@media screen and (min-width:481px) and (max-width:767px){
+	
+		
+	.logo_style{
+	width:200px;
+	margin:10px auto;
+}
+.dear_dochead{
+	font-size:25px;
+	color:#3A3A3A;
+	margin:20px 0 0 0;
+	font-weight:bold;
+	
+}
+.dear_docpara{
+	font-size:14px;
+	color:#3A3A3A;
+	margin:10px 0 0 0;
+
+}
+
+/*===========banner part=========*/
+.banner_style{
+	margin:15px 0 15px 0;
+}
+
+
+}
+/*============================== media query ipad====================*/
+@media screen and (min-width:768px) and (max-width:992px){
+
+	
+	.logo_style{
+	width:250px;
+	margin:10px auto;
+}
+.dear_dochead{
+	font-size:30px;
+	color:#3A3A3A;
+	margin:20px 0 0 0;
+	font-weight:bold;
+	
+}
+.dear_docpara{
+	font-size:18px;
+	color:#3A3A3A;
+	margin:10px 0 0 0;
+
+}
+
+/*===========banner part=========*/
+.banner_style{
+	margin:15px 0 15px 0;
+}
+
+	
+}
+/*==================media query ipad pro=============*/
+@media screen and (min-width:993px) and (max-width:1200px){
+}
